@@ -26,6 +26,10 @@ This project implements a smart doorbell system using Arduino. It includes featu
 - **Button (button):** Digital pin 7
 - **Buzzer (buzzer):** Digital pin 6
 
+## Circuit Diagram
+
+![image](https://github.com/BibekJoshi4000/Smart_Door_bell/assets/97554714/09741e6a-df0b-44c7-950d-0ec6306a5a36)
+
 ## Setup Instructions
 1. Connect the components based on the provided pin configuration in the Arduino sketch.
 2. Install the necessary Arduino libraries:
@@ -38,10 +42,6 @@ This project implements a smart doorbell system using Arduino. It includes featu
 - PIR motion detection triggers an intruder alert with lights.
 - Pressing the button simulates a guest, displaying a greeting on the LCD.
 - The night light adjusts based on the ambient light using the photoresistor.
-
-## Circuit Diagram
-
-![image](https://github.com/BibekJoshi4000/Smart_Door_bell/assets/97554714/09741e6a-df0b-44c7-950d-0ec6306a5a36)
 
 ## Additional Notes
 - Make sure to adjust the pin configuration in the sketch according to your actual wiring.
